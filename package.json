@@ -1,0 +1,22 @@
+{
+    "name": "projeto-basico",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "jest": {
+        "testEnvironment": "jsdom"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "jest": "^27.5.1",
+        "jsdom": "^24.1.1"
+    },
+    "directories": {
+        "test": "tests"
+    },
+    "description": ""
+}
