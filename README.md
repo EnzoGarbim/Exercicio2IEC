@@ -23,5 +23,3 @@ Este é um projeto básico de exemplo que inclui um código JavaScript simples e
 - **`/.github/workflows/ci.yml`**: Configuração do pipeline de CI/CD com GitHub Actions.
 - **`package.json`**: Gerencia dependências e scripts do projeto.
 - **`README.md`**: Documentação do projeto.
-
-- 
