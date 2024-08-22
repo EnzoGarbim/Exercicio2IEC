@@ -7,6 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-color: #f4f4f4;
 }
 
 /* Header */
@@ -15,13 +16,43 @@ header {
     color: white;
     text-align: center;
     padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* Main */
 main {
     flex-grow: 1;
-    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.content {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
     text-align: center;
+}
+
+/* Button */
+button {
+    background-color: #4682B4;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 1rem;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #5a9bd3;
 }
 
 /* Footer */
@@ -30,4 +61,5 @@ footer {
     color: white;
     text-align: center;
     padding: 1rem;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
 }
